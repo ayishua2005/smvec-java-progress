@@ -4,10 +4,8 @@ public class Problem1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double r = sc.nextDouble();
+        char ch = sc.next().charAt(0);
 
-        double circumference = 2 * 3.14 * r;
-
-        System.out.println(circumference);
+        System.out.println(ch);
     }
 }
